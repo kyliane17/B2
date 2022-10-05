@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP Joke </title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+
+          <!-- Formulaire -->
+
+          <h1 class="jumbotron-heading">Les blagues pas forcément drole </h1>
+          <h2>
+            
+            <!-- Avec un lien simple -->
+            <a id="lablague" href="#" class="btn btn-primary my-2">Afficher la blagounette </a>
+        </h2>
+        </div>
+      </section>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <!-- Tableau en Bootstrap: https://getbootstrap.com/docs/5.2/content/tables/ -->
+          <table class="table table-hover table-striped">
+            <thead>
+              <tr>
+                <th scope="col">La blague</th> <!-- Affichage de la blague en texte -->                
+              </tr>
+            </thead>
+            <tbody id="jokesLines">
+              <!-- Données issues du JSON -->
+            </tbody>
+          </table>
+        </div>        
+      </section>
+
+    </main>    
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Appel du script -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
+
